@@ -3,6 +3,8 @@ import random
 import sys
 import ClassesObjects
 
-test = ClassesObjects.Animal(12,4,9,69)
+Dog = ClassesObjects.Animal("Dog", 3, 5, "Bark")
+
+Dog.get_sound()
 
 raw_input()

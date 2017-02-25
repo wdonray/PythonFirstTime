@@ -15,9 +15,9 @@ class Animal:
     self.__sound = sound
   
   def set_name(self , name):
-	if (type(name) != str ):
-		raise TypeError("Please use a string")
-	self.__name = name
+    if (type(name) != str ):
+      raise TypeError("Please use a string")
+  self.__name = name
     
   def get_name(self):
     return self.__name
@@ -35,10 +35,10 @@ class Animal:
     return self.__weight
     
   def set_sound(self , sound):
-	if (type(sound) != str ):
-		raise TypeError("Please use a string")
-    self.__sound = sound
-    
+    if (type(sound) != str ):
+      raise TypeError("Please use a string")
+  self.__sound = sound
+  
   def get_sound(self):
     return self.__sound
 
