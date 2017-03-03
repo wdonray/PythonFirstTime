@@ -5,6 +5,6 @@ import ClassesObjects
 
 Dog = ClassesObjects.Animal("Dog", 3, 5, "Bark")
 
-Dog.get_sound()
+print(Dog.toString())
 
 raw_input()
