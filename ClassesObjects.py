@@ -87,7 +87,7 @@ class Dog(Animal):
       print(self.get_sound() * how_many)
 
 
-spot = Dog("Spot", 53, 27, "RUFF", "Donray")
+spot = Dog("Spot", 53, 27, "Ruff", "Donray")
 
 print(spot.toString())
 
