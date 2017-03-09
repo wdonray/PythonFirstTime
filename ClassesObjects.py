@@ -51,7 +51,7 @@ class Animal(object):
                                                                     self.get_height(),
                                                                     self.get_weight(),
                                                                     self.get_sound())
-cat = Animal('Cuck', 33,10,'Meow')
+cat = Animal('Cuck', 33, 10, 'Meow')
 
 print(cat.toString())
 
@@ -80,7 +80,7 @@ class Dog(Animal):
                                                                     self.get_sound(),
                                                                     self.__owner)
 
-  def multiple_sounds(self, how_many=None):
+  def multiple_sounds(self, how_many = None):
     if how_many is None:
       print(self.get_sound())
     else:
@@ -89,7 +89,11 @@ class Dog(Animal):
 
 spot = Dog("Spot", 53, 27, "Ruff", "Donray")
 
+bark = Dog("Bark Lee", 3, 8, "Tweet", "Donray")
+
 print(spot.toString())
+
+print(bark.toString())
 
 class AnimalTesting:
 	def get_type(self, animal):
