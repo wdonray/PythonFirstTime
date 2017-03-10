@@ -1,8 +1,6 @@
-import os
-import random
-import sys
+'''Dictionary'''
 
-super_villains = { 1 : 'Mean Guy', 2 :'Nice Guy' , 3 : 'Kinda Nice Guy'}
+super_villains ={1 :'Mean Guy', 2: 'Nice Guy', 3 : 'Kinda Nice Guy'}
 del super_villains[2]
 
 print super_villains

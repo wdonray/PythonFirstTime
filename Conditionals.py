@@ -1,11 +1,9 @@
-import os
-import random
-import sys
+'''Conditionals'''
 
 age = 21
 
-if age > 16 :
-	print ('You are old enough to drive')
+if age > 16:
+	print 'You are old enough to drive'
 else:
 	print ('You are not old enough')
 if age >= 21 :

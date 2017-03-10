@@ -2,6 +2,7 @@
 import pygame
 
 
+
 class Node(object):
     ''' A Node '''
 
@@ -66,17 +67,22 @@ def test_nodes():
 
 
 if __name__ == '__main__':
-    test_nodes()
+    BLACK = (0, 0, 0)
+    WHITE = (255, 255, 255)
+    BLUE = (0, 0, 255)
+    GREEN = (0, 255, 0)
+    RED = (255, 0, 0)
     pygame.init()
     screen = pygame.display.set_mode((900, 900))
-    running = True
-    while running:
-        pygame.draw.circle(screen, (255, 255, 255), (450, 450), 100, 0)
+    screen.fill(WHITE)
+    RUNNING = True
+    while RUNNING:
+        pygame.draw.circle(screen, (RED), (450, 450), 100, 0)
         pygame.display.flip()
         events = pygame.event.get()
         for event in events:
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_ESCAPE:
-                    running = False
+                    RUNNING = False
     pygame.quit()
     raw_input()
