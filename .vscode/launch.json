@@ -18,22 +18,6 @@
             ]
         },
         {
-            "name": "Python",
-            "type": "python",
-            "request": "launch",
-            "stopOnEntry": true,
-            "pythonPath": "${config.python.pythonPath}",
-            "program": "${file}",
-            "cwd": "${workspaceRoot}",
-            "env": null,
-            "envFile": "${workspaceRoot}/.env",
-            "debugOptions": [
-                "WaitOnAbnormalExit",
-                "WaitOnNormalExit",
-                "RedirectOutput"
-            ]
-        },
-        {
             "name": "PySpark",
             "type": "python",
             "request": "launch",

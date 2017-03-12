@@ -52,5 +52,7 @@ while RUNNING:
             GAME_NUMBER
         )
     print print_string
+
     if GAME_NUMBER == 3:
         RUNNING = False
+raw_input()
